@@ -1,0 +1,487 @@
+body {
+  background-color: #abb0ac;
+}
+
+/* Head bar */
+
+.headBar {
+  position: sticky;
+  top: 0px;
+  background-color: #abb0ac;
+  padding-top: 15px;
+}
+
+/* Menu bar */
+
+.menuBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logoIcon {
+  font-size: 30px;
+  color: #953d79;
+}
+
+.fontStyle {
+  font-family: "Roboto", sans-serif;
+}
+
+.white {
+  color: white;
+}
+
+.create {
+  display: inline-block;
+}
+
+.photosInput {
+  width: 800px;
+  border-radius: 25px;
+  height: 50px;
+}
+
+.musicInput {
+  width: 800px;
+  border-radius: 25px;
+  height: 50px;
+  display: none;
+}
+
+.icon {
+  color: #181938;
+  font-size: 30px;
+}
+
+.accountLogo {
+  border-radius: 500px;
+  width: 50px;
+}
+
+/* Page Pointer */
+
+.pagePointerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.cursor {
+  cursor: pointer;
+  user-select: none;
+}
+
+.pointer {
+  margin: 0 20px;
+  padding-bottom: 10px;
+}
+
+.pointer:hover {
+  color: white;
+}
+
+.borderBottom {
+  border-bottom: 3px solid white;
+}
+
+/* Tab Menu */
+
+.menuTabsContainer {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.overfolw {
+  overflow-x: scroll;
+}
+
+.tab {
+  padding: 15px;
+  border-radius: 30px;
+  margin: 5px;
+}
+
+/* Photos Section */
+
+.photosSectionContainer {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.marginBetweenSection {
+  margin: 8px;
+}
+
+.sectionBulid {
+  width: 400px;
+}
+
+.post {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.uploadPhoto {
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+
+.userPhoto {
+  width: 40px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.caption {
+  margin: 5px 0;
+  margin-left: 5px;
+}
+
+/* Click Display */
+
+.clickDisplayContainer {
+  margin-top: 35px;
+}
+
+.clickDisplay {
+  display: flex;
+  margin: 0 auto;
+}
+
+.clickDisplayStyleByJS {
+  width: 1000px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.leftCard {
+  width: 50%;
+}
+
+.rightCard {
+  width: 50%;
+  padding: 35px;
+}
+
+.clickedUploadPhoto {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.uploadedUserProfile {
+  margin-top: 25px;
+}
+
+.uploadedCaption {
+  font-size: 25px;
+  font-family: "Patrick Hand", cursive;
+  margin-top: 28px;
+}
+
+.clickedIcon {
+  font-size: 25px;
+  color: #1d1c1a;
+}
+
+.saveButton {
+  padding: 15px;
+  color: white;
+  background-color: #ff4502;
+  border-radius: 25px;
+}
+
+.iconContainer {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconAndButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentInput {
+  border-radius: 25px;
+}
+
+.loveIcon {
+  font-size: 39px;
+  margin-right: 15px;
+  color: #bfbfbf;
+}
+
+.loveIconAndComment {
+  display: flex;
+  margin-top: 35px;
+}
+
+.isLoved {
+  color: #f7007c;
+}
+
+.commentContainer {
+  margin-top: 60px;
+}
+
+.commentedProfilePhoto {
+  width: 40px;
+  border-radius: 300px;
+}
+
+.commentedProfilePhoto {
+  margin-right: 10px;
+}
+
+.comment {
+  color: white;
+  font-family: "Patrick Hand", cursive;
+  background-color: #95be44;
+  border-radius: 30px;
+  font-size: 17px;
+  padding: 10px 15px;
+}
+
+.commentAndtrashIcon {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.trashIcon {
+  color: #352450;
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.commentTimeTag {
+  margin-bottom: 35px;
+  margin-left: 30px;
+}
+
+.backIcon {
+  font-size: 45px;
+  position: fixed;
+  top: 100px;
+  left: 60px;
+  color: #191934;
+}
+
+/* autocomplete */
+
+.searchList {
+  width: 800px;
+  background-color: white;
+  position: fixed;
+  top: 70px;
+  left: 270px;
+  border-radius: 20px;
+}
+
+.filteredPhotoAndCaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 60px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.filteredPhoto {
+  height: 100%;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.filteredCaption {
+  padding-left: 5px;
+}
+
+.cuteFont {
+  font-family: "Patrick Hand", cursive;
+}
+
+.enteredUploadPhoto {
+  width: 100%;
+}
+
+/* Music Player */
+
+.musicPlayer {
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+  border-bottom: 1px solid white;
+}
+
+.leftSection {
+  width: 50%;
+}
+
+.rightSection {
+  width: 50%;
+}
+
+.addHeightAndOverflow {
+  height: 480px;
+  overflow-y: scroll;
+}
+
+.musicTitle {
+  color: white;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+}
+
+.musicAndPhoto {
+  padding: 15px;
+  border-bottom: 1px solid lightgrey;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photoTag {
+  height: 80%;
+  border-radius: 5px;
+}
+
+.musicContainer {
+  width: 600px;
+}
+
+.musicDisplayPhoto {
+  height: 250px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.musicControlAndShow {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.playTime {
+  font-size: 18px;
+  font-family: "Patrick Hand", cursive;
+}
+
+.progressBar {
+  width: 350px;
+  height: 5px;
+  background-color: #6a6a6a;
+  margin-top: 10px;
+}
+
+.currentProgress {
+  width: 0px;
+  height: 100%;
+  background-color: #f6014e;
+}
+
+.controlButton {
+  font-size: 35px;
+}
+
+.musicButtonContainer {
+  margin-top: 20px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pauseButton {
+  display: none;
+}
+
+.hideMusicPlayer {
+  display: none;
+}
+
+/* Ar bwrr Section */
+
+.arbwrrButton {
+  color: white;
+  padding: 10px;
+  background-color: #ff672d;
+  border-radius: 10px;
+  font-family: "Patrick Hand", cursive;
+  font-size: 18px;
+}
+
+.arbwrrButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.hideArbwrrButton {
+  display: none;
+}
+
+.arbwrrSection {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.arbwrrAlert {
+  color: white;
+  font-family: "Patrick Hand", cursive;
+  background-color: #95be44;
+  text-align: center;
+  font-size: 25px;
+  padding: 25px 35px;
+  border-radius: 15px;
+  position: relative;
+  transition: bottom 0.5s ease-in-out;
+}
+
+/* Sort */
+
+.dropDown {
+  font-size: 35px;
+  position: fixed;
+  top: 110px;
+  right: 170px;
+}
+
+.sortMenu {
+  position: fixed;
+  top: 90px;
+  right: 215px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.ascendingButton {
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  font-family: "Patrick Hand", cursive;
+}
+
+.descendingButton {
+  padding: 10px;
+  font-family: "Patrick Hand", cursive;
+}

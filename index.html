@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hann's</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/47cc32fe1a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="headBar">
+      <!-- Menu bar -->
+      <div class="menuBar">
+        <i class="fa-brands fa-yahoo logoIcon"></i>
+        <div class="home white fontStyle cursor">Home</div>
+        <div class="createArrow cursor">
+          <div class="fontStyle white create">Create</div>
+          <i class="fa-solid white fa-angle-down"></i>
+        </div>
+        <input
+          class="photosInput form-control fontStyle"
+          placeholder="Search Photos"
+        />
+        <input
+          class="musicInput form-control fontStyle"
+          placeholder="Search Musics"
+        />
+        <div class="searchList"></div>
+        <i class="fa-solid fa-bell icon cursor bell"></i>
+        <i class="fa-solid fa-comment-dots icon cursor commentIcon"></i>
+        <img
+          class="accountLogo cursor"
+          src="https://i.pinimg.com/236x/37/c5/da/37c5daac8c17d09704121054dadbb22d.jpg"
+        />
+        <i class="fa-solid white menuDown fa-angle-down cursor"></i>
+      </div>
+      <!-- Hide when click -->
+      <div class="homePage">
+        <!-- Page Pointer -->
+        <div class="pagePointerContainer">
+          <div class="photos fontStyle cursor pointer borderBottom">Photos</div>
+          <div class="musics fontStyle cursor pointer">Musics</div>
+        </div>
+        <!-- Menu Tabs -->
+        <div class="menuTabsContainer"></div>
+      </div>
+    </div>
+    <!-- Music Player -->
+    <div class="musicPlayer hideMusicPlayer">
+      <div class="leftSection"></div>
+      <div class="rightSection"></div>
+      <i class="fa-solid fa-circle-chevron-down dropDown cursor"></i>
+      <div class="sortMenu"></div>
+    </div>
+    <audio class="audioTag" src=""></audio>
+    <!-- Ar bwrr Section -->
+    <div class="arbwrrButtonContainer">
+      <div class="arbwrrButton hideArbwrrButton cursor">
+        Click to get creator's ar bwrr
+      </div>
+    </div>
+    <div class="arbwrrSection"></div>
+    <!-- Photos Section -->
+    <div class="photosSectionContainer"></div>
+    <!-- Click display -->
+    <div class="clickDisplayContainer">
+      <div class="clickDisplay">
+        <div class="leftCard"></div>
+        <div class="rightCard"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
