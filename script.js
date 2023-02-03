@@ -893,6 +893,14 @@ const musicArray = [
       "https://i.ytimg.com/vi/uli3V026W0g/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFUoQzAP&rs=AOn4CLBycFWlBYSb_Xb_uLEKHRniDRRzBg",
     musicId: 19,
   },
+  {
+    musicSource:
+      "./Y2Mate.is - Jaden - BYE (Lyrics)  Laying down in my bed at 4 a.m we get up [TikTok Song]-Ot_Jj5t-zZc-160k-1654373920427.mp3",
+    musicName: "Bye Jaden",
+    musicPhoto:
+      "https://i.ytimg.com/vi/Ot_Jj5t-zZc/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD-jZhW85F4CpU3_XmT5NYa8PkHcA",
+    musicId: 20,
+  },
 ];
 
 // music object syntax
