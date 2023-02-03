@@ -920,7 +920,7 @@ const musicArray = [
   {
     musicSource:
       "./Y2Mate.is - အိမ်ပြန်ချိန်  DOUBLEJ ( OFFICIAL LYRICS VIDEO )-bvWe5_EvteM-160k-1655411609784.mp3",
-    musicName: "Nga Yin Khwin Ko - Sophy",
+    musicName: "Eain Pyan Chain - DoubleJ",
     musicPhoto:
       "https://i.ytimg.com/vi/bvWe5_EvteM/hqdefault.jpg?sqp=-oaymwE1CKgBEF5IVfKriqkDKAgBFQAAiEIYAXABwAEG8AEB-AH-CYAC0AWKAgwIABABGHIgVCg-MA8=&rs=AOn4CLA5VsfIZRjfKlblqwzG1ckv9rcoCA",
     musicId: 23,
